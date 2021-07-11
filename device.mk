@@ -312,7 +312,9 @@ PRODUCT_PACKAGES += \
 # QTI Common
 TARGET_BOARD_PLATFORM := sm6150
 MSMSTEPPE := sm6150
-#TARGET_COMMON_QTI_COMPONENTS += \
-#    adreno \
+TARGET_COMMON_QTI_COMPONENTS += \
+    telephony \
+    overlay \
+    bt
 
 include vendor/xiaomi/sweet/sweet-vendor.mk
