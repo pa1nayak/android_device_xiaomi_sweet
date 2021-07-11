@@ -1059,6 +1059,13 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.aospa.power</name>
+        <interface>
+            <name>IPowerFeature</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <avb>
         <vbmeta-version>1.0</vbmeta-version>
     </avb>
